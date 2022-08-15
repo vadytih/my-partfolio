@@ -7,6 +7,7 @@ type careerItemProps = {
     titleCareer: string
     descriptionCareer: string
     skill: string
+    careerName: string
 
 }
 
@@ -20,7 +21,8 @@ export const CareerItem = (props: careerItemProps) => {
             </div>
             <div className={style.lineBlock}></div>
             <div className={style.descriptionBlock}>
-                <span>{'org. ' }</span>
+                <span>{`Organization: ${props.titleCareer}`}</span>
+                <span>{`career: ${props.careerName}`}</span>
                 <span>{props.descriptionCareer}</span>
                 <span>Skills: {props.skill}</span>
             </div>

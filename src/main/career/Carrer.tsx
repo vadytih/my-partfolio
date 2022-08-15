@@ -11,11 +11,11 @@ export const Carrer = () => {
                 <h2 className={styleText.titleBlock}>Career</h2>
                 <div className={style.careerBlock}>
                     <CareerItem titleCareer={"MTF"} start={'2007'} end={'2011'} descriptionCareer={'I working in the' +
-                    ' factory what my firt work after school'} skill={'work hands, teamwork'}/>
+                    ' factory what my firt work after school'} skill={'work hands, teamwork'} careerName={'plumber'}/>
                     <CareerItem titleCareer={"Polimer gold"} start={'2007'} end={'2011'} descriptionCareer={'I working in the' +
-                    ' factory what my firt work after school'} skill={'work hands, teamwork'}/>
+                    ' factory what my firt work after school'} skill={'work hands, teamwork'} careerName={'plumber'}/>
                     <CareerItem titleCareer={"MTF"} start={'2007'} end={'2011'} descriptionCareer={'I working in the' +
-                    ' factory what my firt work after school'} skill={'work hands, teamwork'}/>
+                    ' factory what my firt work after school'} skill={'work hands, teamwork'} careerName={'plumber'}/>
                 </div>
             </div>
         </div>

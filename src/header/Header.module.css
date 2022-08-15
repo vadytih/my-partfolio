@@ -1,0 +1,15 @@
+header {
+    flex-grow: 0;
+}
+.header {
+    height: 80px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerHeader {
+    justify-content: right!important;
+}

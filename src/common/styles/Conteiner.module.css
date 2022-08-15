@@ -1,0 +1,23 @@
+.container {
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+}
+
+@media (max-width: 668px) {
+    .container {
+        width: 90%;
+        justify-content: center;
+    }
+}
+@media (min-width: 669px){
+    .container {
+        width: 90%;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,43 @@
+.contact {
+    width: 100%;
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contactContainer {
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    width: 258px;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+@media (max-width: 360px) {
+    button{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 669px) {
+    .form{
+        width: 100%;
+    }
+
+}

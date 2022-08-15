@@ -1,0 +1,40 @@
+.workItem {
+    height: 300px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.workItemContainer {
+    height: 300px;
+    width: 320px;
+}
+
+.bGContainer {
+    width: 100%;
+    background: rgba(255,100,0,0.5);
+}
+
+.title {
+    font-size: 1em;
+}
+
+.description {
+    font-size: 0.8em;
+}
+
+@media (max-width: 360px) {
+    .workItem {
+        width: 100%;
+    }
+    .bGContainer {
+        width: 100%;
+    }
+
+    .workItemContainer {
+
+        width: 100%;
+    }
+    
+}
